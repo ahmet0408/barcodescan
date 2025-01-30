@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@zxing/library": "^0.21.3",
     "cra-template": "1.2.0",
     "html5-qrcode": "^2.3.8",
     "react": "^18.2.0",

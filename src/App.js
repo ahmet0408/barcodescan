@@ -4,16 +4,24 @@ import Generator from "./Generator";
 import ProductBarcodeScanner from "./ProductBarcodeScanner";
 import ProductForm from "./ProductForm";
 import RandomBarcodeGenerator from "./RandomBarcodeGenerator";
+import Znig from "./Znig";
 
 function App() {
   return (
     <div className="App">
-      {/* <ProductBarcodeScanner />
-      <BarcodeGenerator /> */}
+      {/* <>1111111</>
+      <ProductBarcodeScanner />
+      <>22222222</>
+      <BarcodeGenerator />
+      <>3333333</> */}
       {/* <ProductForm /> */}
-      {/* <GenerateBarcode /> */}
-      {/* <RandomBarcodeGenerator /> */}
-      <Generator />
+      {/* <>4444444</>
+      <GenerateBarcode />
+      <>55555555</>
+      <RandomBarcodeGenerator />
+      <>6666666</>
+      <Generator /> */}
+      <Znig />
     </div>
   );
 }

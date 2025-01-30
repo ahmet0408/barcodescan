@@ -29,8 +29,10 @@ function ProductForm() {
   useEffect(() => {
     if (scanning) {
       const newScanner = new Html5QrcodeScanner("reader", {
-        qrbox: { width: 250, height: 250 },
-        fps: 5
+        qrbox: { width: 300, height: 180 },
+        fps: 5,
+        rememberLastUsedCamera: true,
+        showTorchButton: true
       });
       
       newScanner.render((decodedText) => {
